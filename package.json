@@ -1,0 +1,30 @@
+{
+  "name": "supportwizard",
+  "version": "1.0.0",
+  "description": "avatar for supportwizard ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeremArt/Package.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "ugo chinemerem franklin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeremArt/Package/issues"
+  },
+  "homepage": "https://github.com/MeremArt/Package#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-react": "^7.23.3"
+  }
+}

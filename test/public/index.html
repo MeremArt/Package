@@ -1,0 +1,28 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="avatar.css">
+  <title>Avatar Component</title>
+</head>
+
+<body>
+  <div id="avatar-container"></div>
+  <script src="avatar.js"></script>
+  <script>
+    // Usage example
+    const avatarContainer = document.getElementById("avatar-container");
+
+    function onClickCallback() {
+      alert("Avatar clicked!");
+    }
+
+    createAvatar(avatarContainer, onClickCallback);
+  </script>
+</body>
+
+</html>
